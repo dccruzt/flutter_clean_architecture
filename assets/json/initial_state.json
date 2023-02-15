@@ -1,0 +1,59 @@
+{
+  "availableVehicles": [
+    {
+      "licensePlate": "SSL NH1111",
+      "vehicleId": "1",
+      "vehicleModel": "Polo"
+    },
+    {
+      "licensePlate": "SSL NH2222",
+      "vehicleId": "2",
+      "vehicleModel": "Audi"
+    },
+    {
+      "licensePlate": "SSL NH3333",
+      "vehicleId": "3",
+      "vehicleModel": "Honda"
+    },
+    {
+      "licensePlate": "SSL NH4444",
+      "vehicleId": "4",
+      "vehicleModel": "BMW"
+    },
+    {
+      "licensePlate": "SSL NH5555",
+      "vehicleId": "5",
+      "vehicleModel": "Mercedes"
+    },
+    {
+      "licensePlate": "SSL NH6666",
+      "vehicleId": "6",
+      "vehicleModel": "Ford"
+    }
+  ],
+  "applications": [
+    {
+      "id": "driverTest",
+      "name": "Driver Test",
+      "maxPickupDistanceSteps": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ]
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "maxPickupDistanceSteps": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ]
+    }
+  ]
+}
