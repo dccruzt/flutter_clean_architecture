@@ -1,40 +1,40 @@
 {
   "availableVehicles": [
     {
-      "licensePlate": "SSL NH1111",
+      "licensePlate": "BRA2E19",
       "vehicleId": "1",
       "vehicleModel": "Polo"
     },
     {
-      "licensePlate": "SSL NH2222",
+      "licensePlate": "FXR9915",
       "vehicleId": "2",
       "vehicleModel": "Audi"
     },
     {
-      "licensePlate": "SSL NH3333",
+      "licensePlate": "PLS1A00",
       "vehicleId": "3",
       "vehicleModel": "Honda"
     },
     {
-      "licensePlate": "SSL NH4444",
+      "licensePlate": "FLA0008  ",
       "vehicleId": "4",
       "vehicleModel": "BMW"
     },
     {
-      "licensePlate": "SSL NH5555",
+      "licensePlate": "OTM2022",
       "vehicleId": "5",
       "vehicleModel": "Mercedes"
     },
     {
-      "licensePlate": "SSL NH6666",
+      "licensePlate": "RIO 2A18",
       "vehicleId": "6",
       "vehicleModel": "Ford"
     }
   ],
   "applications": [
     {
-      "id": "driverTest",
-      "name": "Driver Test",
+      "id": "inDrive",
+      "name": "inDrive",
       "maxPickupDistanceSteps": [
         1,
         3,
@@ -42,18 +42,20 @@
         7,
         9,
         11
-      ]
+      ],
+      "picture": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/nxd2el6buqjhqmkqn0ut"
     },
     {
-      "id": "uber",
-      "name": "Uber",
+      "id": "99",
+      "name": "99 Taxi",
       "maxPickupDistanceSteps": [
         2,
         4,
         6,
         8,
         10
-      ]
+      ],
+      "picture": "https://logospng.org/download/99/logo-99-256.png"
     }
   ]
 }

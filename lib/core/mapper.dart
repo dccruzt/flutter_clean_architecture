@@ -38,6 +38,7 @@ class MapperImpl implements Mapper {
         id: from.id,
         name: from.name,
         pickupDistances: from.maxPickupDistanceSteps,
+        picture: from.picture,
       );
 
   @override

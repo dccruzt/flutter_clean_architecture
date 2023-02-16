@@ -23,7 +23,9 @@ class ApplicationsRowList extends StatelessWidget {
       children: [
         ...applications
             .map((application) => ActionRow(
-                  leading: Image.asset('assets/images/uber.png', width: x8),
+                  leading: application.picture != null
+                      ? Image.network(application.picture!, width: x8)
+                      : null,
                   trailing: SvgPicture.asset(
                     'assets/icons/settings.svg',
                     width: x6,
