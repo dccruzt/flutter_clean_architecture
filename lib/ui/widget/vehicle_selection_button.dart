@@ -21,6 +21,7 @@ class VehicleSelectionButton extends StatelessWidget {
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
         minimumSize: const Size.fromHeight(x12),
+        backgroundColor: primaryPurple,
         disabledBackgroundColor: disabledBlue,
         disabledForegroundColor: disabledColor,
         textStyle: theme.textTheme.bodyLarge,

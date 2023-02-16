@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_clean_architecture/core/design_system/colors.dart';
 
 import '../../core/design_system/component/action_row.dart';
 
@@ -67,13 +68,13 @@ class _RadiusSelectorState extends State<RadiusSelector> {
       children: [
         IconButton(
           icon: const Icon(Icons.remove_circle_outline),
-          color: isMinLimit ? Colors.grey : Colors.blue,
+          color: isMinLimit ? Colors.grey : primaryPurple,
           onPressed: isMinLimit ? null : () => setState(decreaseDistance),
         ),
         Text('${widget.pickupDistances[index]} km'),
         IconButton(
           icon: const Icon(Icons.add_circle_outline),
-          color: isMaxLimit ? Colors.grey : Colors.blue,
+          color: isMaxLimit ? Colors.grey : primaryPurple,
           onPressed: isMaxLimit ? null : () => setState(increaseDistance),
         ),
       ],

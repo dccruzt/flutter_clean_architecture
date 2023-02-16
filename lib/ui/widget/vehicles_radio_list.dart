@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_clean_architecture/core/design_system/colors.dart';
 
 import '../../domain/entity/vehicle_entity.dart';
 
@@ -37,7 +38,7 @@ class VehiclesRadioList extends StatelessWidget {
                         ),
                         style: theme.textTheme.bodyMedium),
                     onChanged: (_) => onChanged.call(vehicle),
-                    activeColor: Colors.blue,
+                    activeColor: primaryPurple,
                     controlAffinity: ListTileControlAffinity.trailing,
                     selected: vehicle == currentVehicle,
                   ),

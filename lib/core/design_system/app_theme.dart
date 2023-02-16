@@ -4,13 +4,13 @@ import 'colors.dart';
 import 'spacings.dart';
 
 ThemeData appThemeData = ThemeData(
-  scaffoldBackgroundColor: darkBlue,
+  scaffoldBackgroundColor: darkBackground,
   appBarTheme: const AppBarTheme(
-    color: darkBlue,
+    color: darkBackground,
     elevation: 0,
     centerTitle: true,
     titleTextStyle: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
-    iconTheme: IconThemeData(color: Colors.blue),
+    iconTheme: IconThemeData(color: primaryPurple),
   ),
   dividerTheme: const DividerThemeData(
     color: Colors.grey,
@@ -18,13 +18,13 @@ ThemeData appThemeData = ThemeData(
     endIndent: x4,
     thickness: 0.2,
   ),
-  iconTheme: const IconThemeData(color: Colors.white),
+  iconTheme: const IconThemeData(color: primaryPurple),
   textTheme: const TextTheme(
     bodyLarge: TextStyle(
       fontSize: 16.0,
-      color: Colors.blue,
+      color: primaryPurple,
     ),
-    bodyMedium: TextStyle(fontSize: 16.0, color: customWhite),
+    bodyMedium: TextStyle(fontSize: 16.0, color: Colors.white),
   ),
   disabledColor: disabledColor,
   radioTheme: RadioThemeData(

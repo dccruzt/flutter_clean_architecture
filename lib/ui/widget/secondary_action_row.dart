@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../core/design_system/component/action_row.dart';
 
@@ -11,7 +10,7 @@ class AddAppActionRow extends StatelessWidget {
     final theme = Theme.of(context);
 
     return ActionRow(
-      leading: SvgPicture.asset('assets/icons/plus_circle.svg'),
+      leading: const Icon(Icons.add_circle_outline),
       primary: Text('Add apps', style: theme.textTheme.bodyLarge),
       hasDivider: false,
       onTap: () {},
@@ -27,8 +26,7 @@ class MoreReservationsActionRow extends StatelessWidget {
     final theme = Theme.of(context);
 
     return ActionRow(
-      leading:
-          SvgPicture.asset('assets/icons/book_open.svg', color: Colors.blue),
+      leading: const Icon(Icons.menu_book),
       primary: Text('More reservations', style: theme.textTheme.bodyLarge),
       hasDivider: false,
       onTap: () {},
@@ -44,7 +42,7 @@ class MembershipActionRow extends StatelessWidget {
     final theme = Theme.of(context);
 
     return ActionRow(
-      leading: SvgPicture.asset('assets/icons/info.svg', color: Colors.blue),
+      leading: const Icon(Icons.info_outline),
       primary:
           Text('MULTI membership and fees', style: theme.textTheme.bodyLarge),
       hasDivider: false,
