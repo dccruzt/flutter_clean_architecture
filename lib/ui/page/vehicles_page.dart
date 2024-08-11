@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../core/design_system/component/search_bar.dart';
+import '../../core/design_system/component/search_bar.dart' as ds;
 import '../../core/design_system/spacings.dart';
 import '../../domain/entity/vehicle_entity.dart';
 import '../controller/vehicles_controller.dart';
@@ -49,7 +49,7 @@ class VehiclesPage extends StatelessWidget {
                         ),
                         Padding(
                           padding: const EdgeInsets.all(x4),
-                          child: SearchBar(
+                          child: ds.SearchBar(
                             hint: 'Search...',
                             onChanged: (query) =>
                                 VehiclesCubitProvider.of(context)
